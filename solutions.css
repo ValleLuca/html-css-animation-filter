@@ -56,18 +56,18 @@
     transform: scale(1.5);
 }
 .ex-10-icon {
-    animation: spin 1s linear infinite;
+    animation: Autorotazione 1s linear infinite;
 }
-@keyframes spin {
+@keyframes Autorotazione {
     0% {
         transform: rotate(1turn);
     }
 }
 
 .ex-11-icon:hover {
-    animation: spinALittleBit 2s linear;
+    animation: GiroHover 2s linear;
 }
-@keyframes spinALittleBit {
+@keyframes GiroHover {
     0% {
         transform: rotate(0);
     }
@@ -79,9 +79,9 @@
     }
 }
 .ex-12-button:hover .ex-12-top-white {
-    animation: moveTopWhite 2s linear;
+    animation: RotazioneContorno1 2s linear;
 }
-@keyframes moveTopWhite {
+@keyframes RotazioneContorno1 {
     0% {
         left: 10%;
     }
@@ -93,9 +93,9 @@
     }
 }
 .ex-12-button:hover .ex-12-bottom-white {
-    animation: moveBottomWhite 2s linear;
+    animation: RotazioneContorno2 2s linear;
 }
-@keyframes moveBottomWhite {
+@keyframes RotazioneContorno2 {
     0% {
         right: 20%;
     }
@@ -108,9 +108,9 @@
 }
 
 .ex-13-button:hover .ex-13-top-white {
-    animation: moveTopWhiteCompletely 2s linear;
+    animation: RotazioneContorno1 2s linear;
 }
-@keyframes moveTopWhiteCompletely {
+@keyframes RotazioneContorno1 {
     0% {
         left: 10%;
         top: -10px;
@@ -137,9 +137,9 @@
     }
 }
 .ex-13-button:hover .ex-13-bottom-white {
-    animation: moveBottomWhiteCompletely 2s linear;
+    animation: RotazioneContorno2 2s linear;
 }
-@keyframes moveBottomWhiteCompletely {
+@keyframes RotazioneContorno2 {
     0% {
         bottom: -10px;
         right: 20%;
